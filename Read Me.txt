@@ -1,0 +1,16 @@
+These files are the code made by Mohit Kumar Ahuja for Visual Tracking Lab 2
+Submitted to: Dr. Desire Sidibe 
+
+The functions made for the lab are mentioned below with a short description:
+
+1. Mean_Shift_Tracking.m : This file contains the implimentation of Mean-Shift algorithm using "CAR" Sequence.
+
+2. color_distribution.m : This function was made to compute the normal histogram (h) as well as the Epanechnikov profile. 
+ 
+3. compute_bhattacharyya_coefficient: This function computes the Bhattacharyya coefficient.
+ 
+4. compute_meanshift_vector: This function is made to compute the new center of mass and to add it to the previous one.
+
+5. compute_weights: It computes the weights of the neighbouring pathes and finalises the target patch in new frame who has the highest weight.
+
+6. extract_image_patch_center_size: It computes the centre of the patch.
